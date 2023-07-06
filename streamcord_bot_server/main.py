@@ -15,8 +15,8 @@ from live_requests import live_request
 from discord.ext import tasks
 from dotenv import load_dotenv
 
-# 创建Discord客户端
-client = discord.Client(intents=discord.Intents.default(), proxy='http://127.0.0.1:7890')
+# 创建Discord客户端，若需要使用到代理，则添加一个proxy='代理地址及端口'
+client = discord.Client(intents=discord.Intents.default())
 
 # 设定直播监测时间段
 start_time = datetime.time(hour=16, minute=0, second=0)
