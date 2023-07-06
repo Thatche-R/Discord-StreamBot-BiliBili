@@ -5,4 +5,14 @@ Streamcord Bot on BiliBili
 
 b站接口api使用的是仓库[bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect/)中给到的接口。
 
+脚本所使用代码为Python,需要使用到discord.py, dotenv。
 
+可通过使用Python库安装代码:
+`discord.py`
+```
+pip3 install discord
+```
+及`dotenv`
+```
+pip3 install python-dotenv
+```
